@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/bank-style.css">
+    <title>Your bank</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi <span id="user">Sukanto</span>, Welcome to back</h1>
+        <div id="bank-detail">
+            <div id="total-balance">
+                <p>Total Balance</p>
+                <h1>$<span id="main-balance">0.00</span></h1>
+            </div>
+            <div id="total-deposit">
+                <p>Total Deposit</p>
+                <h1>$<span id="deposit-balance">0.00</span></h1>
+            </div>
+            <div id="total-withdraw">
+                <p>Total Withdraw</p>
+                <h1>$<span>0.00</span></h1>
+            </div>
+        </div>
+        <div id="deposite-withdraw">
+            <div class="input">
+                <p>Deposit now</p>
+                <input type="text" name="" id="input-deposit">
+                <small id="warning"></small><br>
+                <input type="submit" name="" id="deposit-btn" value="Deposit">
+            </div>
+            <div class="input">
+                <p>Withdraw now</p>
+                <input type="text" name="" id="input-withdraw">
+                <input type="submit" name="" id="withdraw-btn" value="Withdraw">
+            </div>
+        </div>
+        <div id="history">
+            <h2>History</h2>
+            <table id="table">
+                <tr>
+                    <th>About</th>
+                    <th>Status</th>
+                    <th>Amount</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/bank.js"></script>
+</body>
+</html>

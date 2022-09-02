@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 50px auto;
+}
+#bank-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+#total-balance, #total-deposit, #total-withdraw{
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+#total-balance{
+    background-color: aqua;
+}
+#total-deposit{
+    background-color: lightsalmon;
+}
+#total-withdraw{
+    background-color: lightyellow;
+}
+
+#deposite-withdraw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.input{
+    background-color: deepskyblue;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.input p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.input input[type="text"]{
+    padding: 10px;
+    display: block;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.input input[type="submit"]{
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: orange;
+    border: none;
+}
+
+#history{
+    margin-top: 30px;
+}
+#history h2{
+    margin-bottom: 10px;
+}
+#history table{
+    width: 100%;
+    margin: auto;
+    background-color: cornsilk;
+    border-collapse: collapse;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+tr td{
+    text-align: center;
+}
+.status{
+    color: green;
+    font-weight: bolder;
+}
+#warning{
+    color: rgba(253, 81, 19, 0.932);
+    margin: 0;
+    padding: 0;
+}

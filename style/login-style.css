@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightyellow;
+}
+.container{
+    width: 40%;
+    margin: 12% auto;
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    text-align: center;
+    margin-top: 30px;
+}
+input{
+    display: block;
+    margin: 10px auto;
+}
+#input-username, #input-password{
+    padding: 10px;
+    font-size: 18px;
+    width: 400px;
+}
+#submit-btn{
+    background-color: burlywood;
+    color: white;
+    border: 2px solid white;
+    padding: 8px;
+    width: 120px;
+    font-size: 18px;
+    margin-top: 20px;
+}
